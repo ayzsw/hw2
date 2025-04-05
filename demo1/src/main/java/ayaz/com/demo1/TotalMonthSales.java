@@ -1,0 +1,22 @@
+package ayaz.com.demo1;
+
+public class TotalMonthSales {
+    private String name;
+    private double sum;
+    public TotalMonthSales(String name, double sum) {
+        this.name = name;
+        this.sum = sum;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public double getSum() {
+        return sum;
+    }
+    public void addSales(double sales) {
+        this.sum += sales;
+    }
+}
